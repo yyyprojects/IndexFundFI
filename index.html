@@ -242,7 +242,7 @@
                 data: {
                     labels: labels.map(y => `Year ${y}`),
                     datasets: [{
-                        label: 'Low-Cost Index Fund (0.03% Fee)',
+                        label: 'Low-Cost Index Fund (0.3% Fee)',
                         data: calculateGrowth(lowFee),
                         borderColor: '#3E92CC',
                         backgroundColor: 'rgba(62, 146, 204, 0.2)',
@@ -250,7 +250,7 @@
                         tension: 0.4,
                         pointRadius: 0,
                     }, {
-                        label: 'High-Cost Active Fund (1.00% Fee)',
+                        label: 'High-Cost Active Fund (1.0% Fee)',
                         data: calculateGrowth(highFee),
                         borderColor: '#FF9F1C',
                         backgroundColor: 'rgba(255, 159, 28, 0.2)',
